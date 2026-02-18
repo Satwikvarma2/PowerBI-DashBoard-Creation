@@ -1,25 +1,55 @@
-# Job Runtime Trend Dashboard## Overview
-This Power BI dashboard is created to understand how job runtimes change over time.
-It helps identify which months have higher or lower runtimes and observe overall yearly trends.
+# Power BI Dashboard – Car Sales Analysis (Demo Project)
 
-## Purpose
-- Track job runtime changes across months
-- Identify peak and low runtime periods
-- Support performance monitoring and analysis
+## Overview
+This Power BI dashboard is created using **dummy / sample data**.  
+The purpose of this project is to **demonstrate dashboard design, interactivity, and Power BI features**, not to represent real-world car sales data.
 
-## Data Used
-The dashboard was initially built using **dummy (sample) data** to design and validate visuals.
-Dummy data follows the same structure as actual runtime data.
+## Dataset
+The dataset contains basic car-related information such as:
+- Brand  
+- Car Model Name  
+- Country  
+- Month  
+- Price  
 
-When replaced with **actual data**:
-- The dashboard works without any changes
-- Similar insights and trends are produced
-- Visuals continue to show accurate results
+An additional calculated column **Car Type** is created using DAX to classify cars into:
+- **Economy**
+- **Mid Range**
+- **Luxury**
 
-## Tool Used
-- **Power BI** for data modeling and visualization
+This classification is only for demonstration purposes.
 
-## Outcome
-This dashboard provides a clear view of runtime trends over the year and can be reused with real data to support monitoring and decision‑making.
+## Dashboard Components
+The dashboard consists of the following visuals:
 
+### 1. Table Visual
+- Displays detailed car information including brand, model, country, month, price, and car type.
+- Helps users view raw data in a structured format.
 
+### 2. Line Chart
+- Shows trends based on selected data (for example, price over months).
+- Updates dynamically based on slicer selections.
+
+### 3. Slicer – Car Type
+- Allows users to filter data by **Economy**, **Mid Range**, or **Luxury**.
+- When a car type is selected:
+  - The **line chart** updates automatically.
+  - The **table** shows only the selected category.
+
+## Key Feature – Interactivity
+The most important part of this dashboard is **interaction**:
+- Selecting a value in the **Car Type slicer** dynamically updates all visuals.
+- This demonstrates how Power BI dashboards respond to user input in real time.
+
+## Purpose of the Project
+- To demonstrate Power BI dashboard creation
+- To showcase DAX calculated columns
+- To show how slicers control visuals
+- To present interactive reporting behavior
+
+## Note
+All data used in this project is **dummy data** created solely for learning and demonstration purposes.
+
+---
+
+✅ **End of README**
