@@ -51,5 +51,3 @@ The most important part of this dashboard is **interaction**:
 All data used in this project is **dummy data** created solely for learning and demonstration purposes.
 
 ---
-
-✅ **End of README**
