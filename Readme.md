@@ -1,9 +1,13 @@
+
+
 # Power BI Dashboard – Car Sales Analysis (Demo Project)
 
 ## Overview
 This Power BI dashboard is created using **dummy / sample data**.  
 The purpose of this project is to **demonstrate dashboard design, interactivity, and Power BI features**, not to represent real-world car sales data.
 
+## Dashboard Demo 
+![Dashboard Demo](Dashboard_Glimpse.gif)
 ## Dataset
 The dataset contains basic car-related information such as:
 - Brand  
